@@ -19,7 +19,7 @@ body {
     background-color: blueviolet;
 }
 
-button{
+#butao1{
     background-color: brown;
     border: none;
     color: yellow;
@@ -29,7 +29,7 @@ button{
     border-radius: 10px;
 }
 
-button:hover{
+#butao1:hover {
     background-color: red;
     cursor: pointer;
 }
@@ -37,4 +37,56 @@ button:hover{
 /*Quando é id, usamos # */
 #ImagemCrazyFrog{
     display: none;
+    float: right;
+}
+#ImagemRecebaInteligencia{
+    display: none;
+}
+
+
+.ExemplosDeBotao #simpleClick {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50px;
+}
+
+.ExemplosDeBotao #twoClicks {
+    border-radius: 5px;
+    font-style: italic;
+    padding: 10px;
+}
+
+.ExemplosDeBotao #pressButton {
+    background-color: rgb(4, 255, 4);
+    font-size: x-large;
+}
+
+.ExemplosDeBotao #soltarMouse {
+    background-color: aqua;
+    color: pink;
+}
+
+.ExemplosDeBotao #moveMouse {
+    background-color: white;
+    color: black;
+}
+
+
+.ExemplosDeBotao #mouseSobreBotao {
+   top: auto;
+   left: auto;
+   position: absolute;
+}
+
+.ExemplosDeBotao button {
+    margin: 20px;
+    
+}
+
+.ExemplosDeBotao button:hover {
+    color: purple;
+}
+
+.timeBtn {
+    background-color: darkorange;
 }
